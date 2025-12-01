@@ -7,20 +7,20 @@ class LinearForAi < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ramynasr/linear-for-ai/releases/download/v0.2.0/linear-for-ai-macos-arm64"
-      sha256 "f39a97f24d208436cc13d9021c8da8b21f037f7407bde7c4553217c3fb2bd967"
+      sha256 "949fc7e300195484c7549f214fb6481d1b02690dfb80bf2802b8493c87e08f30"
     else
       url "https://github.com/ramynasr/linear-for-ai/releases/download/v0.2.0/linear-for-ai-macos-x64"
-      sha256 "b1024b94a12284586cffc656289b9730aafb79057ea7e97b10940808d181e4d9"
+      sha256 "6ee2e76494ac1a2eec1d584befc29eb06422c07a5ffa6da4116879bd97056b03"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ramynasr/linear-for-ai/releases/download/v0.2.0/linear-for-ai-linux-arm64"
-      sha256 "a66ea40f23800026aff797b0f26175cc2c31d96906603c58a32ee70082791e23"
+      sha256 "24b8f34bf602060a37b1daea00f4ad0e71b87a50eead3ec9ec6c1f2748badecf"
     else
       url "https://github.com/ramynasr/linear-for-ai/releases/download/v0.2.0/linear-for-ai-linux-x64"
-      sha256 "22aa2795b94870b371f164046fff5fda21c044ee71530f02d48c0350dfb355cf"
+      sha256 "dba8ae3790e71ac266fee308e22f5317b4993f763ade4b8d425804339af5a811"
     end
   end
 
